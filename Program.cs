@@ -71,20 +71,52 @@
 
 
 
-string correctPassword = "qwerty123";
-int count = 0;
-while (true)
-{
-    Console.Write("Введите пароль от личного кабинета: ");
-    string password = Console.ReadLine();
+// string correctPassword = "qwerty123";
+// int count = 0;
+// while (true)
+// {
+//     Console.Write("Введите пароль от личного кабинета: ");
+//     string password = Console.ReadLine();
 
-    if (password == correctPassword)
-    {
-        Console.WriteLine("Доступ разрешён");
-        break;
-    }
+//     if (password == correctPassword)
+//     {
+//         Console.WriteLine("Доступ разрешён");
+//         break;
+//     }
 
-    Console.WriteLine("Неверный пароль, попробуйте снова");
-    count++;
-}
-Console.WriteLine($"Количество неверных попыток: {count}");
+//     Console.WriteLine("Неверный пароль, попробуйте снова");
+//     count++;
+// }
+// Console.WriteLine($"Количество неверных попыток: {count}");
+
+
+
+
+
+
+
+
+
+
+// string answer;
+// do
+// {
+//     Console.Write("Введите дату посещения (Например, 01.09): ");
+//     string date = Console.ReadLine();
+//     Console.WriteLine($"Запись добавлена: {date}");
+
+//     Console.Write("Добавить еще одну запись? (да/нет): ");
+//     answer = Console.ReadLine();
+// } while (answer == "да");
+
+// Console.WriteLine("Дневник сохранён");
+
+
+
+
+
+
+
+
+
+//самостоятельные
